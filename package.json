@@ -1,0 +1,27 @@
+{
+  "name": "Wiston-Logger-Centralized-Logging-Mechanism-with-Node-JS-Express-for-Multiple-Env-Dev-Prod-UAT",
+  "version": "1.0.0",
+  "description": "Winston is designed to be a simple and universal logging library with support for multiple modes of transport. A transport is essentially a storage device for your logs. Each Winston logger can have multiple modes of transport (see: Transports) configured at different levels. For example, one may want error logs to be stored in a persistent remote location (like a database), but all logs output to the console or a local file.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadip007/Wiston-Logger-Centralized-Logging-Mechanism-with-Node-JS-Express-for-Multiple-Env-Dev-Prod-UAT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadip007/Wiston-Logger-Centralized-Logging-Mechanism-with-Node-JS-Express-for-Multiple-Env-Dev-Prod-UAT/issues"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "homepage": "https://github.com/soumyadip007/Wiston-Logger-Centralized-Logging-Mechanism-with-Node-JS-Express-for-Multiple-Env-Dev-Prod-UAT#readme"
+}
